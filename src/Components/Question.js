@@ -20,9 +20,9 @@ function Question() {
     const decodedQuestions = encodedQuestions.map(q => {
       return {
         ...q,
-        question: decodeHTML(q.question),
-        correct_answer: decodeHTML(q.correct_answer),
-        incorrect_answers: q.incorrect_answers.map(a => decodeHTML(a))
+        question: decodeHTML(q.text),
+        correct_answer: decodeHTML(q.correctAnswer),
+        incorrect_answers: q.incorrectAnswers.map(a => decodeHTML(a))
       }
     })
 
