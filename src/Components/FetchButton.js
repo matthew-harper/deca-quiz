@@ -32,7 +32,7 @@ function FetchButton(props) {
 
   const handleQuery = async () => {
     //let apiUrl = `https://opentdb.com/api.php?amount=${questionAmount}`
-    let apiUrl = `https://ec2co-ecsel-2ywowx2i6mv7-1312890108.us-east-1.elb.amazonaws.com/quiz`
+    let apiUrl = `https://decaquiz.com/quiz`
 
     //let apiUrl = `https://localhost:49155/Quiz`
 
